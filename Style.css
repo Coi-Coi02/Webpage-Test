@@ -1,0 +1,147 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 20px;
+      font-weight: bold;
+    }
+
+    .old {
+      text-align: center;
+ }
+
+    main {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+a:link.pop {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited.pop {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover.pop {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active.pop {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:link.pap, a:visited.pap {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  
+}
+
+a:hover.pap, a:active.pap {
+  background-color: blue;
+}
+
+a:link.mid, a:visited.mid {
+  background-color: Black;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+a:hover.mid, a:active.mid {
+  background-color: gray;
+}
+
+table.po, th.po, td.po {
+  border:3px solid black;
+  text-align: center;
+  border-color: gray;
+  border-radius: 10px;
+  border-style: ridge;
+  border-collapse: collapse;
+  background-color: rgba(174,170,172,0.1);
+}
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+}
+
+table.pa {
+  border-collapse: collapse;
+  border: none;
+}
+
+th.pa, td.pa {
+  border: none;
+  border-bottom: 1px solid #DDD;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:hover.pa {
+  background-color: rgba(174,170,172,0.3);
+
+}
+

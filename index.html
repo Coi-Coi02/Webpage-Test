@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Webpage</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="Title">My Test Website</h1>
+    <p>Learn and test HTML, CSS, and JavaScript</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="practice.html" target="_self"> About</a>
+    <a href="#">Practice</a>
+  </nav>
+
+
+
+  <main>
+    <div class="card">
+      <h2>HTML Practice</h2>
+      <p>These are HTML program tests:</p>
+      <ul>
+      <li><p>This is a HTML test <a href="https://youtube.com" class="pop" target="_blank">Link</a></p></li>
+      <li><p>This is an image.</p></li>
+      <image src="https://img.itch.zone/aW1nLzMzNTIzMDUucG5n/347x500/tB73GF.png" alt:"Dino" style="width:350px; height:200px;">
+      <li><p>This is an animated GIF.</p></li>
+      <image src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*82D2cg8Gpe9CVISaph6RPg.gif"
+      alt: "Dino" style="width:350px; height:200px;">
+      <li><p>This is a table.</p></li>
+      <table style="width:100%">
+	<caption>Testing table</caption>
+	<tr>
+	<th>Header 1</th>
+	<th>Header 2</th>
+	<th>Header 3</th>
+	</tr>
+	<tr>
+	<td>Cell 1</td>
+	<td>Cell 2</td>
+	<td>Cell 3</td>
+	</tr>
+	<tr>
+	<td>Cell 4</td>
+	<td>Cell 5</td>
+	<td>Cell 6</td>
+	</tr>
+      </table>
+    </ul>
+    </div>
+     
+
+
+    <div class="card">
+      <h2>CSS Practice</h2>
+      <p>These are CSS program tests:</p>
+      <ul>
+      <li><p>This is a CSS test <a href="https://dinosaur-game.io" class="pap" target="_blank">Link</a></p></li>
+      <li><p> This is a table.</p></li>
+        <table class="po" style="width:100%">
+	<caption>Testing Table Style</caption>
+	<tr class="po">
+	<th class="po">Header 1</th>
+	<th class="po" style="width:40%; height:35px;">Header 2</th>
+	<th class="po">Header 3</th>
+	</tr>
+	<tr>
+	<td class="po">Cell 1</td>
+	<td class="po">Cell 2</td>
+	<td class="po">Cell 3</td>
+	</tr>
+	<tr>
+	<td class="po">Cell 4</td>
+	<td class="po">Cell 5</td>
+	<td class="po">Cell 6</td>
+	</tr>
+      </table>
+      <li><p>This is another table.</li></p>
+      <table class="pa" style="width:100%">
+	<caption>Testing Hoverable Table</caption>
+	<tr class="pa">
+	<th class="pa">Header 1</th>
+	<th class="pa">Header 2</th>
+	<th class="pa">Header 3</th>
+	</tr>
+	<tr class="pa">
+	<td class="pa">Cell 1</td>
+	<td class="pa">Cell 2</td>
+	<td class="pa">Cell 3</td>
+	</tr>
+	<tr class="pa">
+	<td class="pa">Cell 4</td>
+	<td class="pa">Cell 5</td>
+	<td class="pa">Cell 6</td>
+	</tr>
+      </table>
+    </ul>
+    </div>
+
+
+
+    <div class="card">
+      <h2>JavaScript Practice</h2>
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <button onclick="sayHello()">Say Hello</button>
+      <p id="output"></p>
+    </div>
+  </main>
+
+ <div class="old">
+ <a href="#Title" class="mid">Jump back to Title</a>
+ </div>
+
+  <footer>
+    My Practice Webpage | Programming Practice
+  </footer>
+
+  <script>
+    function sayHello() {
+      const name = document.getElementById("nameInput").value;
+      const output = document.getElementById("output");
+      if (name.trim() === "") {
+        output.textContent = "Please enter your name!";
+        output.style.color = "red";
+      } else {
+        output.textContent = `Hello, ${name}! Welcome to your practice site.`;
+        output.style.color = "green";
+      }
+    }
+  </script>
+
+
+</body>
+</html>
